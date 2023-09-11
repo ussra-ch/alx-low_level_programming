@@ -4,7 +4,7 @@
 
 /**
  * more headers goes there
- * this
+ * Main - this
  * is a
  * short description for
  * the main function
