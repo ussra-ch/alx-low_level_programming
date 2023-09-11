@@ -3,7 +3,6 @@
 #include <time.h>
 
 /**
- *
  * more headers goes there
  * this
  * is a
