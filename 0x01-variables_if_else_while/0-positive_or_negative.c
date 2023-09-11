@@ -8,7 +8,7 @@
  * is a
  * short description for
  * the main function
- * Return: Description for the returned value
+ * Return: 0 (Success)
  */
 int main(void)
 {
