@@ -8,6 +8,7 @@
  * is a
  * short description for
  * the main function
+ * Return: Description for the returned value
  */
 int main(void)
 {
@@ -27,11 +28,5 @@ int main(void)
 	{
 		printf("%d is negative\n", n);
 	}
-	/**
-	 * this
-	 * is a short
-	 * comment for the return
-	 * functiom
-	 */
 	return (0);
 }
