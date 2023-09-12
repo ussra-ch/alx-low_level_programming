@@ -2,7 +2,7 @@
 #include<unistd.h>
 #include<stdio.h>
 
-int putchar(char c) {
+int putchar(char c){
 	return(write(1,&c,1));
 }
 /**
