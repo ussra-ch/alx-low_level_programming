@@ -11,6 +11,7 @@ int putchar(char c)
  */
 int main(void)
 {
+	int putchar (char);
 	putchar('-');
 	putchar('p');
 	putchar('u');
