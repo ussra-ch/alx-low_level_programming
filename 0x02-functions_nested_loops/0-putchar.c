@@ -1,7 +1,7 @@
 #include "main.h"
 #include<unistd.h>
 
-
+/* putcharr - short describtion */
 int putcharr(char c)
 {
 	return (write(1, &c, 1));
