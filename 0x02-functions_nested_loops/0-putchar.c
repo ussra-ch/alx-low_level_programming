@@ -1,4 +1,5 @@
 #include<unisrd.h>
+#include<main.h>
 
 /**
  * _putchar: short descrription for the putchar function
