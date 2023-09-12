@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include "main.h"
+
 /**
  * print_alphabet - description
  * Return: void (Success)
