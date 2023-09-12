@@ -9,6 +9,7 @@ int putcharr(char c)
 /**
  * main- print -putchar
  * putcharr - short words
+ * Description: hey there!
  * Return: 0 (Success)
  */
 int main(void)
