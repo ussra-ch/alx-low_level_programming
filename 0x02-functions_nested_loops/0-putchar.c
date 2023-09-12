@@ -8,7 +8,7 @@ int putcharr(char c)
 }
 /**
  * main- print -putchar
- * putcharr- short words
+ * putcharr: short words
  * Return: 0 (Success)
  */
 int main(void)
