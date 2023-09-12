@@ -2,7 +2,7 @@
 #include<unistd.h>
 
 
-int putchar(char c){
+int putcharr(char c){
 	return(write(1,&c,1));
 }
 /**
@@ -12,15 +12,15 @@ int putchar(char c){
 int main(void)
 {
 
-	putchar('-');
-	putchar('p');
-	putchar('u');
-	putchar('t');
-	putchar('c');
-	putchar('h');
-	putchar('a');
-	putchar('r');
-	putchar('\n');
+	putcharr('-');
+	putcharr('p');
+	putcharr('u');
+	putcharr('t');
+	putcharr('c');
+	putcharr('h');
+	putcharr('a');
+	putcharr('r');
+	putcharr('\n');
 
 	return (0);
 }

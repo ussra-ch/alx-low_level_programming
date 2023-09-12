@@ -1,3 +1,3 @@
 {
-	int putchar(char c);
+	int putcharr(char c);
 }
