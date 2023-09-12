@@ -3,7 +3,7 @@
 
 /**
  *  putcharr - short describtion
- *  @parameterx: Description of parameter x
+ *  @parameterc: Description of parameter x
  *  Return: 1 (Success)
  */
 int putcharr(char c)
