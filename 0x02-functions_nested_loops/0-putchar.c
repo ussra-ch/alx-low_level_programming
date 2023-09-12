@@ -1,11 +1,19 @@
-#include<unisrd.h>
 #include<main.h>
 
 /**
- * _putchar: short descrription for the putchar function
- * Return: on Succes 1
+ * main- print -putchar
+ * Return: 0 (Success)
  */
-int _putchar(char c)
+int main(void)
 {
-	return(write(1, &c, 1));
+	putchar('-');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
+
+	return (0);
 }
