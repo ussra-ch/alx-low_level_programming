@@ -1,4 +1,2 @@
-{
 
-	void putcharr(char c);
-}
+	int  putcharr(char c);
