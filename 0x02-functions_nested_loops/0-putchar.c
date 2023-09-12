@@ -2,8 +2,9 @@
 #include<unistd.h>
 
 
-int putcharr(char c){
-	return(write(1,&c,1));
+int putcharr(char c)
+{
+	return (write(1, &c, 1));
 }
 /**
  * main- print -putchar
@@ -12,7 +13,7 @@ int putcharr(char c){
 int main(void)
 {
 
-	putcharr('-');
+	putcharr('_');
 	putcharr('p');
 	putcharr('u');
 	putcharr('t');
