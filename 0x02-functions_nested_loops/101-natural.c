@@ -18,7 +18,7 @@ int hey(void)
 		}
 		else if (b % 3 == 0 || b % 5 == 0)
 		{
-			c =+ b'
+			c =+ b;
 		}
 		a++;
 		b++;
