@@ -8,7 +8,8 @@
 int startt(void)
 {
 	int a = 0, b = 0, c = 0;
-	while(a < 1024 && b < 1024)
+	
+	while (a < 1024 && b < 1024)
 	{
 		if (a % 3 == 0 || a % 5 == 0)
 		{
@@ -16,7 +17,7 @@ int startt(void)
 		}
 		else if (b % 3 == 0 || b % 5 == 0)
 		{
-			c =+ b;
+			c += b;
 		}
 		a++;
 		b++;
@@ -28,10 +29,11 @@ int startt(void)
  * of 3 or 5 below 1024
  * Return: Always 0 (Success)
  */
-int main (void)
+int main(void)
 {
 	int t;
-	t = startt ();
+
+	t = startt();
 	printf("%d", t);
 	printf("\n");
 	return (0);
