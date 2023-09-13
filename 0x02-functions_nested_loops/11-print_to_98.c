@@ -22,13 +22,13 @@ void print_to_98(int n)
 	else
 	{
 		while (n != 98)
-                {
-                        printf("%d", n);
-                        printf(",");
-                        printf(" ");
-                        n--;
-                }
-                printf("98");
-                printf("\n");
+		{
+		       	printf("%d", n);
+		       	printf(",");
+		       	printf(" ");
+		       	n--;
+		}
+		printf("98");
+		printf("\n");
 	}
 }
