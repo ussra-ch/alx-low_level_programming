@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include "main.h"
 
 /**
  * print_alphabet - description
@@ -9,17 +9,9 @@ void print_alphabet(void)
 	char i = 'a';
         while (i <= 'z')
         {
-                putchar('i');
+                _putchar('i');
                 i++;
         }
 	return;
 }
-/**
- * main - short description for the main function
- * Return: 0 (Success)
- */
-int main (void)
-{
-	print_alphabet;
-	Return (0);
-}
+
