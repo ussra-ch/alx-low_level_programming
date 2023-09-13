@@ -1,15 +1,13 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _start - computes and prints the sum of all the multiples
+ * startt - computes and prints the sum of all the multiples
  * of 3 or 5 below 1024
  * Return: Always  (Success)
  */
 int startt(void)
 {
-	int a, b, c = 0;
-	a = 0;
-	b = 0;
+	int a = 0, b = 0, c = 0;
 	while(a < 1024 && b < 1024)
 	{
 		if (a % 3 == 0 || a % 5 == 0)
@@ -32,6 +30,8 @@ int startt(void)
  */
 int main (void)
 {
-	startt ();
+	int t;
+	t = startt ();
+	printf("%d", t);
 	return (0);
 }
