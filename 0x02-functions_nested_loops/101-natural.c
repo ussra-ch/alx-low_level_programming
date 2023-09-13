@@ -33,5 +33,6 @@ int main (void)
 	int t;
 	t = startt ();
 	printf("%d", t);
+	printf("\n");
 	return (0);
 }
