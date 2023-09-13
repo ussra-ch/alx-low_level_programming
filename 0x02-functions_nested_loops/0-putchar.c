@@ -1,5 +1,5 @@
 #include "main.h"
-#include "my_fun.c"
+#include "_putchar.c"
 /**
  * main- print -putchar
  * _putchar - short words
@@ -20,3 +20,4 @@ int main(void)
 
 	return (0);
 }
+
