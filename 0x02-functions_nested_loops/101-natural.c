@@ -5,7 +5,7 @@
  * of 3 or 5 below 1024
  * Return: Always  (Success)
  */
-int _start(void)
+int startt(void)
 {
 	int a, b, c = 0;
 	a = 0;
@@ -32,6 +32,6 @@ int _start(void)
  */
 int main (void)
 {
-	_start ();
+	startt ();
 	return (0);
 }
