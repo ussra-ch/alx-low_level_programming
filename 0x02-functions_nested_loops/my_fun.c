@@ -5,7 +5,7 @@
  *  @c: Description of parameter x
  *  Return: 1 (Success)
  */
-int _putchar(char c)
+int _putchar(char c, FILE *fp)
 {
-        return (write(1, &c, 1));
+        return (write(fp, &c, 1));
 }
