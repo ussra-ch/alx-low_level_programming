@@ -1,21 +1,27 @@
 #include "main.h"
 /**
- * _islower - checks the lowercase alphabet
+ * print_sign - Prints the the sign of the input followed by a newline
  *
  * Description: This function prints the lowercase alphabet in a
  * sequential order followed by a newline character.
- *@c: normal int
+ *@n: integer 
  * Return: Always (Success)
  */
-
-int _islower(int c)
+int print_sign(int n)
 {
-	if (c >= 'a' && c <= 'z')
+	if (n > 0)
 	{
+		_putchar('+');
 		return (1);
+	}
+	else if (n ==0)
+	{
+		_putchar('0');
+		return (0);
 	}
 	else
 	{
-		return (0);
+		_putchar('-');
+		return (-1);
 	}
 }
