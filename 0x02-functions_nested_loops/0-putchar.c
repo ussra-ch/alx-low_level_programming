@@ -2,32 +2,32 @@
 #include<unistd.h>
 
 /**
- *  putcharr - short describtion
+ *  _putchar - short describtion
  *  @c: Description of parameter x
  *  Return: 1 (Success)
  */
-int putcharr(char c)
+int _putchar(char c)
 {
 	return (write(1, &c, 1));
 }
 /**
  * main- print -putchar
- * putcharr - short words
+ * _putchar - short words
  * Description: hey there!
  * Return: 0 (Success)
  */
 int main(void)
 {
 
-	putcharr('_');
-	putcharr('p');
-	putcharr('u');
-	putcharr('t');
-	putcharr('c');
-	putcharr('h');
-	putcharr('a');
-	putcharr('r');
-	putcharr('\n');
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
 	return (0);
 }
