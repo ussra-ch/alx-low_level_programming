@@ -4,7 +4,7 @@
  *
  * Description: This function prints the lowercase alphabet in a
  * sequential order followed by a newline character.
- * @n: integer 
+ * @n: integer
  * Return: Always (Success)
  */
 int print_sign(int n)
