@@ -1,4 +1,5 @@
 #include<unistd.h>
+#include<stdio.h>
 /**
  *  _putchar - short describtion
  *  @c: Description of parameter x
