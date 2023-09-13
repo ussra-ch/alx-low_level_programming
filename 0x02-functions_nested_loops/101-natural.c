@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - computes and prints the sum of all the multiples
+ * _start - computes and prints the sum of all the multiples
  * of 3 or 5 below 1024
- * Return: Always 0 (Success)
+ * Return: Always  (Success)
  */
-int hey(void)
+int _start(void)
 {
 	int a, b, c = 0;
 	a = 0;
@@ -24,4 +24,14 @@ int hey(void)
 		b++;
 	}
 	return (c);
+}
+/**
+ * main - computes and prints the sum of all the multiples
+ * of 3 or 5 below 1024
+ * Return: Always 0 (Success)
+ */
+int main (void)
+{
+	_start ();
+	return (0);
 }
