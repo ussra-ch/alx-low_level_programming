@@ -8,5 +8,5 @@
 int main (void)
 {
         print_alphabet();
-        Return (0);
+        return (0);
 }
