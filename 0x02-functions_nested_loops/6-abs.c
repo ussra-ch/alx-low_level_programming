@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * abs - Prints the absolute value of an integer.
+ * _abs - Prints the absolute value of an integer.
  *
  * Description: This function prints the lowercase alphabet in a
  * sequential order followed by a newline character.
@@ -12,7 +12,7 @@ int _abs(int n)
 
 	if (n < 0)
 	{
-		return (-n);		
+		return (-n);
 	}
 	else if (n == 0)
 	{
