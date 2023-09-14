@@ -3,7 +3,7 @@
  * positive_or_negative - the function
  * Decription: short one
  * @n: integer
- * Return: Always true
+ * Return: Always (Success)
  */
 #include<stdio.h>
 void positive_or_negative(int n)
