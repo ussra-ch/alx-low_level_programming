@@ -5,6 +5,7 @@
  * positive_or_negative - Entry point
  *
  * Description: 'the program's description'
+ * @n: integer
  *
  * Return: Always 0 (Success)
  */
