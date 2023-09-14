@@ -1,7 +1,9 @@
 #include "main.h"
+
 /**
  * _isupper: checks if the character is upper
  * @c: the character
+ *
  * Return: 1 (Success)
  */
 int _isupper(int c)
@@ -15,4 +17,3 @@ int _isupper(int c)
 		return (0);
 	}
 }
-
