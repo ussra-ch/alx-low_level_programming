@@ -12,6 +12,7 @@ void more_numbers(void)
 		for (j = 0; j <= 9; j++)
 		{
 			char digit = j + '0';
+
 			write(1, &digit, 1);
 		}
 		for (j = 10; j <= 14; j++)
