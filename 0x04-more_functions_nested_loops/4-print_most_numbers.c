@@ -1,6 +1,6 @@
 #include "main.h"
-/*
- * print_most_numbers - the function
+/**
+ * print_most_numbers - the function's descriptioni
  * Description: Longer description of the function)?
  */
 
