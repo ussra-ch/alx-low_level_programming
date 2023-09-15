@@ -1,4 +1,5 @@
 #include "main.h"
+#include<unistd.h>
 /**
  * more_numbers - the function
  */
@@ -10,7 +11,8 @@ void more_numbers(void)
 	{
 		for (j = 0; j <= 9; j++)
 		{
-			_putchar(j + '0');
+			char digit = j + '0';
+			write(1, &digit, 1);
 		}
 		for (j = 10; j <= 14; j++)
 		{
