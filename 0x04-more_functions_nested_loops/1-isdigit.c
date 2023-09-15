@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isdigit: short one
+ * _isdigit - short one
  * @c: input
  *
  * Return: 1 (Success) 0 otherwise
