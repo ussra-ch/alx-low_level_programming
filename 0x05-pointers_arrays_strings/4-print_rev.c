@@ -1,15 +1,21 @@
 #include "main.h"
+#include <unistd.h>
 /**
  * print_rev - the function
  * @s: the input
  */
 void print_rev(char *s)
 {
-	int i;
+	int i = 0, j, len;
 
-	for (i = '\0'; i < 0; i--)
+	while (i != '\0')
 	{
-		_putchar(*s);
+		i++;
 	}
+	len = i;
+	for (j = len - 1; j >= 0; j--)
+	{
+		_putchar(s[j]);
+	}
+	_putchar('\n');
 }
-
