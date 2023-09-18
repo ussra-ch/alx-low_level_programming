@@ -13,14 +13,9 @@ void rev_string(char *s)
 		i++;
 	}
 	len = i;
-	for (j = 0; j < len; j++)
-	{
-		printf("%c", s[j]);
-	}
-	printf("\n");
+
 	for (j = len - 1; j >= 0; j--)
 	{
-		printf("%c", s[j]);
+		s[j];
 	}
-	printf("\n");
 }
