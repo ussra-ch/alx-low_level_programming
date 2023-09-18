@@ -6,20 +6,13 @@
  */
 void puts2(char *str)
 {
-	int i = *str, j, len;
+	int i = 0;
 
-	while (i != '\0')
+	while (str[i] != '\0')
 	{
-		i++;
+		printf("%c", str[i]);
+		i += 2;
 	}
-	len = i;
-
-	for (j = 0; j < len; j++)
-	{
-		if (j % 2 != 0)
-		{
-			printf("%c", str[j]);
-		}
-	}
+	printf("\n");
 }
 	
