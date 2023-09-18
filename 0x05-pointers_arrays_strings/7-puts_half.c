@@ -21,13 +21,5 @@ void puts_half(char *str)
 			printf("%c", str[j]);
 		}
 	}
-	else
-	{
-
-		for (j = ((len - 1) / 2); j < len - 1; j++)
-		{
-				printf("%c", str[j]);
-		}
-	}
 	printf("\n");
 }
