@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * lett - the function
+ * leet - the function
  * @a: the input
  * Return: pointer (Success)
  */
