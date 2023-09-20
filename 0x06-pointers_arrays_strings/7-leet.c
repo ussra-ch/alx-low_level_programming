@@ -16,13 +16,13 @@ char *leet(char *str)
 	leetMap['t'] = leetMap['T'] = '7';
 	leetMap['l'] = leetMap['L'] = '1';
 
-	while (*str)
+	while (str[i] != '\0')
 	{
-		if (leetMap[(int)*str])
+		if (leetMap[(int)str[i]])
 		{
-			str[i] = leetMap[(int)*str];
+			str[i] = leetMap[(int)str[i]];
 		}
-		str++;
+		i++;
 	}
 	return (str);
 }
