@@ -14,7 +14,7 @@ char *cap_string(char *a)
 	}
 	while (a[i] != '\0')
 	{
-		if (a[i] == ',' || a[i] == ';' || a[i] == '.')
+		if (a[i] == ',' || a[i] == ';' || a[i] == '.' || a[i] == '\n')
 		{
 			if (a[i + 1] >= 'a' && a[i + 1] <= 'z')
 			{
