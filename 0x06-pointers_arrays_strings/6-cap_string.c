@@ -7,8 +7,7 @@
 char *cap_string(char *a)
 {
 	int i = 0;
-
-	if (a[0]  >= 'a' && a[0] <= 'z')
+	if (a[0] >= 'a' && a[0] <= 'z')
 	{
 		a[0] = a[0] - 32;
 	}
