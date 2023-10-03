@@ -22,6 +22,10 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
+	else if (ar == NULL)
+	{
+		return (NULL);
+	}
 	else
 	{
 		i = 0;
