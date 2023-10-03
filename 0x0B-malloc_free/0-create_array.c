@@ -3,7 +3,7 @@
 /**
  * create_array - the function that creates an array
  * @size: the size of the array
- * @char: the character
+ * @c: the character
  * Return: pointer to the array (Success)
  */
 char *create_array(unsigned int size, char c)
@@ -18,7 +18,7 @@ char *create_array(unsigned int size, char c)
 	}
 	else
 	{
-		ar = malloc(size * sizeof(char));
+		ar = (char *)malloc(size * sizeof(char));
 		while (i < size)
 		{
 			ar[i] = c;
