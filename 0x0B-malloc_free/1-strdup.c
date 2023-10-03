@@ -1,0 +1,30 @@
+#include "main.h"
+#include <stdlib.h>
+/**
+ * _strdup - the function
+ * @str: the input
+ * Return: pointer (Success)
+ */
+char *_strdup(char *str)
+{
+	char *ar;
+
+	int i = 0;
+	
+	ar = (char *)malloc(sizeof(str - 1));
+
+	if (str == NULL)
+	{
+		return (NULL);
+	}
+	else
+	{
+		while (str[i] != '\0')
+		{
+			ar[i] = str[i];
+			i++;
+		}
+		ar[i] = '\0';
+		return (ar); 
+	}
+}
