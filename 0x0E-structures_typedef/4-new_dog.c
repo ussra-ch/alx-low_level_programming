@@ -23,7 +23,10 @@ dog_t *new_dog(char *name, float age, char *owner)
 		new__dog->name[i] = name[i];
 	}
 	new__dog->name[i] = '\0';
+
 	new__dog->owner = malloc(sizeof(owner) + 1);
+
+	i = 0;
 
 	for (i = 0; owner[i]; i++)
 	{
