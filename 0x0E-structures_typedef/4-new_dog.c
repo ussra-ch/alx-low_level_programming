@@ -21,5 +21,5 @@ dog_t *new_dog(char *name, float age, char *owner)
 	{
 		return (NULL);
 	}
-	return(new__dog);
+	return (new__dog);
 }
