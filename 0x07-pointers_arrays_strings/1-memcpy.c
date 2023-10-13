@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _memcpy - copies memory area
- * @des: destination
+ * @dest: destination
  * @src: source
  * @n: bytes
  * Return: ptro dest
