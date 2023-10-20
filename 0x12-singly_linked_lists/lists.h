@@ -9,6 +9,7 @@
  * @next: ptr to the next node of the list
  *
  * Description: simply linked list.
+ */
 typedef struct list_s
 {
 	char *str;
