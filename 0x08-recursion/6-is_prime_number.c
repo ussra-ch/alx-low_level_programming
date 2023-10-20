@@ -7,7 +7,7 @@ int mine(int n, int a)
 		return (1);
 	if (n % a == 0)
 		i = 1;
-	else 
+	else
 		i = 0;
 	return (i + mine(n, a - 1));
 }
