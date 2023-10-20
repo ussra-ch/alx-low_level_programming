@@ -19,7 +19,7 @@ int mine(int n, int a)
 }
 /**
  * is_prime_number - returns prime numbers
- * @: input
+ * @n: input
  * Return: prime number
  */
 int is_prime_number(int n)
