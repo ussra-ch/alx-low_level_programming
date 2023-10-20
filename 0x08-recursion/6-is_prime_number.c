@@ -1,4 +1,10 @@
 #include "main.h"
+/**
+ * mine - check if the number is prime
+ * @n: input
+ * @a: input
+ * Return: int
+ */
 int mine(int n, int a)
 {
 	int i;
