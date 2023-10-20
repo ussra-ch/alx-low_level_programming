@@ -18,7 +18,7 @@ int mine(int n, int a)
  */
 int is_prime_number(int n)
 {
-	if (n < 1)
+	if (n <= 1)
 		return (0);
 	if (mine(n, n) > 2)
 		return (0);
