@@ -13,6 +13,8 @@ int length(char *s)
 /**
  * check - checks if the string is palindrom
  * @s: string
+ * @len: length of the string
+ * @i: index
  * Return: 1 if yes, 0 else
  */
 int check(int i, char *s, int len)
