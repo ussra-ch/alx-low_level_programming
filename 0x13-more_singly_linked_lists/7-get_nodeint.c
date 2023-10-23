@@ -9,7 +9,7 @@ listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
 	int i;
 
-	for (i = index; i <= i; i--)
+	for (i = index; i >= 0; i--)
 	{
 		if (head == NULL)
 			return (0);
