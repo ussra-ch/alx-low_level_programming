@@ -1,6 +1,7 @@
-#include <stddef.h>
 #ifndef MY
 #define MY
+
+#include <stddef.h>
 
 /**
  * struct listint_s - singly linked list
