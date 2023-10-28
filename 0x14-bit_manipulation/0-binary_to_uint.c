@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 /**
 * int binary_to_uint - converts a binary number to an unsigned int
 * @b: pointer to 0 and 1 char

@@ -1,8 +1,7 @@
 #ifndef MY_FUN
 #define MY_FUN
 
-#include <stddef.h>
-#include <stdlib.h>
+#include <string.h>
 
 unsigned int binary_to_uint(const char *b);
 
