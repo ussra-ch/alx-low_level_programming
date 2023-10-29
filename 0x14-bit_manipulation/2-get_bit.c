@@ -15,5 +15,5 @@ int get_bit(unsigned long int n, unsigned int index)
 		/* assuming 8 bits per byte */
 		return (-1);
 	}
-	return (int)((n & t) >> index);
+	return ((int)((n & t) >> index));
 }
