@@ -3,7 +3,8 @@
  * create_file - function that creates a file
  * @filename: the file's created name
  * @text_content: the content of the file
- * Return: 1 on success, -1 on failure (file can not be created,file can not be written,write “fails”,etc
+ * Return: 1 on success, -1 on failure (file can not be 
+ * created,file can not be written,write “fails”,etc
  * if filename is NULL return -1
  * if text_content is NULL create an empty file
  */
