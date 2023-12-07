@@ -30,5 +30,5 @@ if (new == NULL)
 	tmp->next = new;
 	new->prev = tmp;
 
-	return (*head);
+	return (new);
 }
