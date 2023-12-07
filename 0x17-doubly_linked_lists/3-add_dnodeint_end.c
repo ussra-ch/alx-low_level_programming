@@ -26,8 +26,11 @@ if (new == NULL)
 	}
 	while (tmp->next)
 		tmp = tmp->next;
-	tmp->next = new;
-	new->prev = tmp;
+	if (*head != NULL)
+	{
+		tmp->next = new;
+		new->prev = tmp;
+	}
 
 	return (*head);
 }
