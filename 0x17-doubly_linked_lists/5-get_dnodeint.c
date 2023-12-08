@@ -5,6 +5,7 @@
  * @head: the head of the linked list
  * @index: nbr of returned nodes
  * Return:  nth node of a dlistint_t linked list
+ * if the node does not exist, return NULL
 */
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
@@ -15,12 +16,15 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 	i = 0;
 	if (head == NULL)
 		return (NULL);
+	if (index == 0)
+		return (head);
 	tmp = head;
-	for (i = 0; i < index; i++)
+	while (i < index)
 	{
+		i++;
 		tmp = tmp->next;
+		if (tmp == NULL)
+			return (NULL);
 	}
-	if (tmp == NULL)
-		return (NULL);
 	return (tmp);
 }
