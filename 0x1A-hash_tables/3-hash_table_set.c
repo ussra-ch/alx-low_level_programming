@@ -49,14 +49,11 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	if (ht == NULL || key == NULL || value == NULL)
 		return (0);
 
-	/* calc the index for the key */
 	idx = key_index((const unsigned char *) key, ht->size);
 
-	/* search for an existing node with the same key in the linked list */
 	node = ht->array[idx];
 	while (node != NULL)
 	{
-		/* if node with the same key is found, update its value */
 		if (strcmp(node->key, key) == 0)
 		{
 			free(node->value);
@@ -67,13 +64,10 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		}
 		node = node->next;
 	}
-
-	/* if no existing node with the same key, create a new node */
 	new_node = create_hash_node(key, value);
 	if (new_node == NULL)
 		return (0);
 
-	/* add the new node at the beginning of the linked list at the index */
 	new_node->next = ht->array[idx];
 	ht->array[idx] = new_node;
 	return (1);
