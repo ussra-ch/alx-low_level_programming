@@ -4,7 +4,7 @@
  * hash_table_print - Prints a hash table.
  * @ht: A pointer to the hash table.
  **/
-void hash_table_print(const hash_table_t *ht)
+void hash_table_delete(const hash_table_t *ht)
 {
 
 	unsigned long int i;
